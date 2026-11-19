@@ -18,7 +18,7 @@ android {
         buildConfigField(
             "String",
             "AGENT_API_URL",
-            "\"https://YOUR_BACKEND_HOST/reply\""
+            "\"https://whatsapp-ai-agent-o4vr.onrender.com/reply\""
         )
     }
 
