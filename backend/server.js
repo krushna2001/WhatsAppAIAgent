@@ -21,7 +21,7 @@ app.post("/reply", async (req, res) => {
         "Content-Type": "application/json"
       },
       body: JSON.stringify({
-        model: process.env.OPENAI_MODEL || "gpt-6.2-astra",
+        model: process.env.OPENAI_MODEL || "gpt-4.1-mini",
         instructions: [
           "You are the user's WhatsApp auto-reply assistant.",
           "Write one short, natural, friendly reply suitable for WhatsApp.",
